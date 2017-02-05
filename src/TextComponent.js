@@ -32,8 +32,9 @@ export default function TextComponent ({ colormap, component, randomChars, obfus
             randomChars={randomChars}
           />
         ) : component.text}
-        {component.extra && component.extra.map((extra) => (
+        {component.extra && component.extra.map((extra, i) => (
           <TextComponent
+            key={i}
             colormap={colormap}
             component={extra}
             obfuscated={component.obfuscated}
