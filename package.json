@@ -6,7 +6,7 @@
   "scripts": {
     "test": "standard && jest",
     "build": "babel src -d lib --ignore spec.js",
-    "prepublish": "babel src -d lib",
+    "prepublish": "babel src -d lib --ignore spec.js",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook"
   },
