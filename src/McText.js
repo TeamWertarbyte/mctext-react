@@ -2,10 +2,7 @@ import React, { PropTypes } from 'react'
 import defaultColormap from './defaultColormap'
 import convertTextToJson from './textToJson'
 import TextComponent from './TextComponent'
-
-function isString (val) {
-  return typeof val === 'string' || ((!!val && typeof val === 'object') && Object.prototype.toString.call(val) === '[object String]')
-}
+import { isString } from './util'
 
 export default function McText (props) {
   const {

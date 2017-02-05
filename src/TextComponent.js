@@ -1,5 +1,6 @@
 import React, { PropTypes } from 'react'
 import ObfuscatedText from './ObfuscatedText'
+import { isString } from './util'
 
 function getStyle (colormap, { color, bold, italic, underlined, strikethrough }) {
   return {
@@ -11,27 +12,37 @@ function getStyle (colormap, { color, bold, italic, underlined, strikethrough })
 }
 
 export default function TextComponent ({ colormap, component, randomChars, obfuscated }) {
-  return (
-    <span
-      style={getStyle(colormap, component)}
-    >
-      {component.obfuscated || (obfuscated && component.obfuscated !== false) ? (
-        <ObfuscatedText
-          colormap={colormap}
-          text={component.text}
-          randomChars={randomChars}
-        />
-      ) : component.text}
-      {component.extra && component.extra.map((extra) => (
-        <TextComponent
-          colormap={colormap}
-          component={extra}
-          obfuscated={component.obfuscated}
-          randomChars={randomChars}
-        />
-      ))}
-    </span>
-  )
+  if (isString(component)) {
+    return obfuscated ? (
+      <ObfuscatedText
+        colormap={colormap}
+        text={component}
+        randomChars={randomChars}
+      />
+    ) : <span>{component}</span>
+  } else {
+    return (
+      <span
+        style={getStyle(colormap, component)}
+      >
+        {component.obfuscated || (obfuscated && component.obfuscated !== false) ? (
+          <ObfuscatedText
+            colormap={colormap}
+            text={component.text}
+            randomChars={randomChars}
+          />
+        ) : component.text}
+        {component.extra && component.extra.map((extra) => (
+          <TextComponent
+            colormap={colormap}
+            component={extra}
+            obfuscated={component.obfuscated}
+            randomChars={randomChars}
+          />
+        ))}
+      </span>
+    )
+  }
 }
 
 TextComponent.propTypes = {
@@ -53,7 +64,7 @@ TextComponent.propTypes = {
     yellow: PropTypes.string,
     white: PropTypes.string
   }).isRequired,
-  component: PropTypes.object.isRequired,
+  component: PropTypes.oneOfType([PropTypes.string, PropTypes.object]).isRequired,
   obfuscated: PropTypes.bool,
   randomChars: PropTypes.string.isRequired
 }
