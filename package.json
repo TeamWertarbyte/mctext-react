@@ -1,0 +1,44 @@
+{
+  "name": "mctext-react",
+  "version": "1.0.0",
+  "description": "A React component to display Minecraft-formatted text.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "jest",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeamWertarbyte/mctext-react.git"
+  },
+  "keywords": [
+    "react",
+    "minecraft",
+    "text",
+    "component"
+  ],
+  "author": "Maik Marschner",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TeamWertarbyte/mctext-react/issues"
+  },
+  "homepage": "https://github.com/TeamWertarbyte/mctext-react#readme",
+  "devDependencies": {
+    "@kadira/storybook": "^2.5.2",
+    "babel-cli": "^6.22.2",
+    "babel-core": "^6.22.1",
+    "babel-jest": "^18.0.0",
+    "babel-plugin-transform-object-assign": "^6.22.0",
+    "babel-polyfill": "^6.22.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-preset-react": "^6.22.0",
+    "babel-preset-stage-0": "^6.22.0",
+    "jest": "^18.1.0",
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
+  },
+  "peerDependencies": {
+    "react": "^15.4.2"
+  }
+}
