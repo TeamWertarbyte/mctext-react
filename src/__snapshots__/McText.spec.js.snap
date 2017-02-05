@@ -1,0 +1,267 @@
+exports[`test Formatting codes text renders properly 1`] = `
+<span
+  style={
+    Object {
+      "fontFamily": "monospace",
+    }
+  }>
+  <span
+    style={
+      Object {
+        "color": undefined,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "textDecoration": " ",
+      }
+    }>
+    
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      This is red and this is 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      <span>
+        NUbipw
+      </span>
+    </span>
+    <span
+      style={
+        Object {
+          "color": undefined,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+       and 
+    </span>
+    <span
+      style={
+        Object {
+          "color": undefined,
+          "fontStyle": undefined,
+          "fontWeight": "bold",
+          "textDecoration": " ",
+        }
+      }>
+      bold. Note that 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#5555ff",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      color codes reset format codes, as you 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#5555ff",
+          "fontStyle": "italic",
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      can see.
+    </span>
+  </span>
+</span>
+`;
+
+exports[`test JSON text component renders properly 1`] = `
+<span
+  style={
+    Object {
+      "fontFamily": "monospace",
+    }
+  }>
+  <span
+    style={
+      Object {
+        "color": undefined,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "textDecoration": " ",
+      }
+    }>
+    
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      <span>
+        3!#AGNUbipw3!#AGNUbipw3!#AGNUbipw3!#AGNUbipw3
+      </span>
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#55ff55",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+       | 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      SKY-Server 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#55ff55",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      | 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      Minigames 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#55ff55",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      | 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      Creative 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#55ff55",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      | 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#ff5555",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      Community von 8 - 66 Jahren 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#55ff55",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      | 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      Aktive Admins
+    </span>
+  </span>
+</span>
+`;
+
+exports[`test JSON text component with string extra components renders properly 1`] = `
+<span
+  style={
+    Object {
+      "fontFamily": "monospace",
+    }
+  }>
+  <span
+    style={
+      Object {
+        "color": undefined,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "textDecoration": " ",
+      }
+    }>
+    This 
+    <span>
+      works 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#ff5555",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": " ",
+        }
+      }>
+      great!
+    </span>
+  </span>
+</span>
+`;
