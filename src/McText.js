@@ -57,7 +57,6 @@ McText.propTypes = {
 }
 
 McText.defaultProps = {
-  animated: true,
   colormap: defaultColormap,
   randomChars: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!§$%&?#'
 }
