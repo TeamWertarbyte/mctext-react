@@ -1,10 +1,6 @@
 import React, { Component, PropTypes } from 'react'
 
 export default class ObfuscatedText extends Component {
-  constructor (props) {
-    super(props)
-  }
-
   generateText () {
     let randomString = ''
     for (let i = 0; i < this.props.text.length; i++) {
@@ -16,7 +12,7 @@ export default class ObfuscatedText extends Component {
   animate = () => {
     if (this.span && this.span.innerText) {
       this.span.innerText = this.generateText()
-      requestAnimationFrame(this.animate)
+      window.requestAnimationFrame(this.animate)
     }
   }
 

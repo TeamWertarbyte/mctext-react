@@ -69,9 +69,8 @@ export default function convertTextToJson (text) {
   }
 
   component.extra.push({
-      ...currentFormattings,
-      text: unformattedText.substring(lastPos)
-
+    ...currentFormattings,
+    text: unformattedText.substring(lastPos)
   })
 
   return component

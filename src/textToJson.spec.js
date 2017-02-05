@@ -1,3 +1,4 @@
+/* eslint-env jest */
 import convertTextToJson from './textToJson'
 
 describe('textToJson', () => {
@@ -27,14 +28,14 @@ describe('textToJson', () => {
   it('converts text with color to json', () => {
     expect(convertTextToJson('§cRoses are red, §9violets are blue.')).toEqual({
       text: '',
-      extra: [{ color: 'red', text: 'Roses are red, '}, { color: 'blue', text: 'violets are blue.' }]
+      extra: [{ color: 'red', text: 'Roses are red, ' }, { color: 'blue', text: 'violets are blue.' }]
     })
   })
 
   it('resets the format when a color code is used', () => {
     expect(convertTextToJson('§lbold §4dark red but not bold')).toEqual({
       text: '',
-      extra: [{ bold: true, text: 'bold '}, { color: 'dark_red', text: 'dark red but not bold' }]
+      extra: [{ bold: true, text: 'bold ' }, { color: 'dark_red', text: 'dark red but not bold' }]
     })
   })
 
