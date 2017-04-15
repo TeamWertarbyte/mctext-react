@@ -1,5 +1,7 @@
 # mctext-react
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/TeamWertarbyte/mctext-react.svg)](https://greenkeeper.io/)
+
 This library allows you to display text with Minecraft formatting. It supports [JSON (component-based) text][mc-text-component] as well as [strings with formatting codes][mc-formatting].  
 Obfuscated text is also supported and will behave as it does ingame.
 
