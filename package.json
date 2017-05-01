@@ -27,7 +27,7 @@
   },
   "homepage": "https://github.com/TeamWertarbyte/mctext-react#readme",
   "devDependencies": {
-    "@kadira/storybook": "^2.5.2",
+    "@kadira/storybook": "^2.35.3",
     "babel-cli": "^6.22.2",
     "babel-core": "^6.22.1",
     "babel-eslint": "^7.1.1",
@@ -38,15 +38,18 @@
     "babel-preset-react": "^6.22.0",
     "babel-preset-stage-0": "^6.22.0",
     "jest": "^18.1.0",
-    "react": "^15.4.2",
-    "react-dom": "^15.4.2",
-    "react-test-renderer": "^15.4.2",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "react-test-renderer": "^15.5.4",
     "standard": "^8.6.0"
   },
   "peerDependencies": {
-    "react": "^15.4.2"
+    "react": "^15.5.4"
   },
   "standard": {
     "parser": "babel-eslint"
+  },
+  "dependencies": {
+    "prop-types": "^15.5.8"
   }
 }
