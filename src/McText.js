@@ -1,4 +1,5 @@
-import React, { PropTypes } from 'react'
+import React from 'react'
+import PropTypes from 'prop-types'
 import defaultColormap from './defaultColormap'
 import convertTextToJson from './textToJson'
 import TextComponent from './TextComponent'
