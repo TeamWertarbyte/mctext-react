@@ -7,7 +7,7 @@ function getStyle (colormap, { color, bold, italic, underlined, strikethrough })
     color: color && colormap[color],
     fontWeight: bold && 'bold',
     fontStyle: italic && 'italic',
-    textDecoration: `${underlined ? 'underline' : ''} ${strikethrough ? 'line-through' : ''}`
+    textDecoration: (underlined || strikethrough) && `${underlined ? 'underline' : ''} ${strikethrough ? 'line-through' : ''}`
   }
 }
 

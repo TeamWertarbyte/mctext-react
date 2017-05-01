@@ -11,7 +11,7 @@ exports[`test Formatting codes text renders properly 1`] = `
         "color": undefined,
         "fontStyle": undefined,
         "fontWeight": undefined,
-        "textDecoration": " ",
+        "textDecoration": undefined,
       }
     }>
     
@@ -21,7 +21,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       This is red and this is 
@@ -32,7 +32,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       <span>
@@ -45,7 +45,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": undefined,
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
        and 
@@ -56,7 +56,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": undefined,
           "fontStyle": undefined,
           "fontWeight": "bold",
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       bold. Note that 
@@ -67,7 +67,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": "#5555ff",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       color codes reset format codes, as you 
@@ -78,7 +78,7 @@ exports[`test Formatting codes text renders properly 1`] = `
           "color": "#5555ff",
           "fontStyle": "italic",
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       can see.
@@ -100,7 +100,7 @@ exports[`test JSON text component renders properly 1`] = `
         "color": undefined,
         "fontStyle": undefined,
         "fontWeight": undefined,
-        "textDecoration": " ",
+        "textDecoration": undefined,
       }
     }>
     
@@ -110,7 +110,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       <span>
@@ -123,7 +123,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#55ff55",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
        | 
@@ -134,7 +134,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       SKY-Server 
@@ -145,7 +145,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#55ff55",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       | 
@@ -156,7 +156,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       Minigames 
@@ -167,7 +167,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#55ff55",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       | 
@@ -178,7 +178,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       Creative 
@@ -189,7 +189,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#55ff55",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       | 
@@ -200,7 +200,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#ff5555",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       Community von 8 - 66 Jahren 
@@ -211,7 +211,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#55ff55",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       | 
@@ -222,7 +222,7 @@ exports[`test JSON text component renders properly 1`] = `
           "color": "#aa0000",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       Aktive Admins
@@ -244,7 +244,7 @@ exports[`test JSON text component with string extra components renders properly 
         "color": undefined,
         "fontStyle": undefined,
         "fontWeight": undefined,
-        "textDecoration": " ",
+        "textDecoration": undefined,
       }
     }>
     This 
@@ -257,7 +257,7 @@ exports[`test JSON text component with string extra components renders properly 
           "color": "#ff5555",
           "fontStyle": undefined,
           "fontWeight": undefined,
-          "textDecoration": " ",
+          "textDecoration": undefined,
         }
       }>
       great!
