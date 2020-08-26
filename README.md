@@ -41,7 +41,7 @@ import McText from 'mctext-react'
 | children * | `string` or `object` | | The text to display, see above. |
 | colormap | `object` | _see below_ | An alternate colormap used to map Minecraft colors to CSS colors. |
 | randomChars | `string` | `A…Za…z0…9!§$%&?#` | Characters to use for obfuscated text. |
-| prefix | `string` | `§` | Character to use for color prefix. |
+| prefix | `string` | `§` | Character to use for color prefix, usually `§` or `&`. |
 | style | `object` | | Override the style of the text. |
 
 \* required property
