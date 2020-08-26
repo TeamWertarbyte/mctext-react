@@ -7,6 +7,7 @@ import { isString } from './util'
 
 export default function McText (props) {
   const {
+    prefix,
     children,
     colormap,
     randomChars,
@@ -14,7 +15,7 @@ export default function McText (props) {
     ...other
   } = props
 
-  const component = isString(children) ? convertTextToJson(children) : children
+  const component = isString(children) ? convertTextToJson(children, prefix) : children
 
   return (
     <span
@@ -51,10 +52,12 @@ McText.propTypes = {
     white: PropTypes.string
   }),
   randomChars: PropTypes.string,
+  prefix: PropTypes.string,
   style: PropTypes.object
 }
 
 McText.defaultProps = {
+  prefix: '§',
   colormap: defaultColormap,
   randomChars: 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!§$%&?#'
 }

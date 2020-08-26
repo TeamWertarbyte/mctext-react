@@ -17,9 +17,9 @@ const colorMap = {
   'f': 'white'
 }
 
-export default function convertTextToJson (text) {
+export default function convertTextToJson (text, prefix = '§') {
   const component = { text: '', extra: [] }
-  const re = /§[0-9a-fklmnor]/gm
+  const re = new RegExp(`${prefix}[0-9a-fklmnor]`, 'gm')
 
   const unformattedText = text.replace(re, '')
 
