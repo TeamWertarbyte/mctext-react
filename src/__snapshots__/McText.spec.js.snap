@@ -1,10 +1,13 @@
-exports[`test Formatting codes text renders properly 1`] = `
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Formatting codes text renders properly 1`] = `
 <span
   style={
     Object {
       "fontFamily": "monospace",
     }
-  }>
+  }
+>
   <span
     style={
       Object {
@@ -13,7 +16,8 @@ exports[`test Formatting codes text renders properly 1`] = `
         "fontWeight": undefined,
         "textDecoration": undefined,
       }
-    }>
+    }
+  >
     
     <span
       style={
@@ -23,7 +27,8 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       This is red and this is 
     </span>
     <span
@@ -34,9 +39,10 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       <span>
-        NUbipw
+        bipw3!
       </span>
     </span>
     <span
@@ -47,7 +53,8 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
        and 
     </span>
     <span
@@ -58,7 +65,8 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": "bold",
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       bold. Note that 
     </span>
     <span
@@ -69,7 +77,8 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       color codes reset format codes, as you 
     </span>
     <span
@@ -80,20 +89,22 @@ exports[`test Formatting codes text renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       can see.
     </span>
   </span>
 </span>
 `;
 
-exports[`test JSON text component renders properly 1`] = `
+exports[`Formatting codes text with custom prefix renders properly 1`] = `
 <span
   style={
     Object {
       "fontFamily": "monospace",
     }
-  }>
+  }
+>
   <span
     style={
       Object {
@@ -102,7 +113,8 @@ exports[`test JSON text component renders properly 1`] = `
         "fontWeight": undefined,
         "textDecoration": undefined,
       }
-    }>
+    }
+  >
     
     <span
       style={
@@ -112,9 +124,107 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
+      This is red and this is 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": undefined,
+        }
+      }
+    >
       <span>
-        3!#AGNUbipw3!#AGNUbipw3!#AGNUbipw3!#AGNUbipw3
+        #AGNUb
+      </span>
+    </span>
+    <span
+      style={
+        Object {
+          "color": undefined,
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": undefined,
+        }
+      }
+    >
+       and 
+    </span>
+    <span
+      style={
+        Object {
+          "color": undefined,
+          "fontStyle": undefined,
+          "fontWeight": "bold",
+          "textDecoration": undefined,
+        }
+      }
+    >
+      bold. Note that 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#5555ff",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": undefined,
+        }
+      }
+    >
+      color codes reset format codes, as you 
+    </span>
+    <span
+      style={
+        Object {
+          "color": "#5555ff",
+          "fontStyle": "italic",
+          "fontWeight": undefined,
+          "textDecoration": undefined,
+        }
+      }
+    >
+      can see.
+    </span>
+  </span>
+</span>
+`;
+
+exports[`JSON text component renders properly 1`] = `
+<span
+  style={
+    Object {
+      "fontFamily": "monospace",
+    }
+  }
+>
+  <span
+    style={
+      Object {
+        "color": undefined,
+        "fontStyle": undefined,
+        "fontWeight": undefined,
+        "textDecoration": undefined,
+      }
+    }
+  >
+    
+    <span
+      style={
+        Object {
+          "color": "#aa0000",
+          "fontStyle": undefined,
+          "fontWeight": undefined,
+          "textDecoration": undefined,
+        }
+      }
+    >
+      <span>
+        ipw3!#AGNUbipw3!#AGNUbipw3!#AGNUbipw3!#AGNUbi
       </span>
     </span>
     <span
@@ -125,7 +235,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
        | 
     </span>
     <span
@@ -136,7 +247,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       SKY-Server 
     </span>
     <span
@@ -147,7 +259,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       | 
     </span>
     <span
@@ -158,7 +271,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       Minigames 
     </span>
     <span
@@ -169,7 +283,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       | 
     </span>
     <span
@@ -180,7 +295,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       Creative 
     </span>
     <span
@@ -191,7 +307,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       | 
     </span>
     <span
@@ -202,7 +319,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       Community von 8 - 66 Jahren 
     </span>
     <span
@@ -213,7 +331,8 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       | 
     </span>
     <span
@@ -224,20 +343,22 @@ exports[`test JSON text component renders properly 1`] = `
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       Aktive Admins
     </span>
   </span>
 </span>
 `;
 
-exports[`test JSON text component with string extra components renders properly 1`] = `
+exports[`JSON text component with string extra components renders properly 1`] = `
 <span
   style={
     Object {
       "fontFamily": "monospace",
     }
-  }>
+  }
+>
   <span
     style={
       Object {
@@ -246,7 +367,8 @@ exports[`test JSON text component with string extra components renders properly 
         "fontWeight": undefined,
         "textDecoration": undefined,
       }
-    }>
+    }
+  >
     This 
     <span>
       works 
@@ -259,7 +381,8 @@ exports[`test JSON text component with string extra components renders properly 
           "fontWeight": undefined,
           "textDecoration": undefined,
         }
-      }>
+      }
+    >
       great!
     </span>
   </span>

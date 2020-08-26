@@ -22,6 +22,13 @@ test('Formatting codes text renders properly', () => {
   expect(tree).toMatchSnapshot()
 })
 
+test('Formatting codes text with custom prefix renders properly', () => {
+  const tree = renderer.create(
+    <McText prefix={'&'}>{'&4This is red and this is &ksecret&r and &lbold. Note that &9color codes reset format codes, as you &ocan see.'}</McText>
+  ).toJSON()
+  expect(tree).toMatchSnapshot()
+})
+
 test('JSON text component renders properly', () => {
   const tree = renderer.create(
     <McText>

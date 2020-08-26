@@ -1,5 +1,5 @@
 import React from 'react'
-import { storiesOf } from '@kadira/storybook'
+import { storiesOf } from '@storybook/react'
 import McText from '../src/McText'
 
 storiesOf('McText', module)
@@ -21,5 +21,10 @@ storiesOf('McText', module)
   .add('from string', () => (
     <McText>
       §4This is red and this is §ksecret§r and §lbold. Note that §9color codes reset format codes, as you §ocan see.
+    </McText>
+  ))
+  .add('from string (& as prefix)', () => (
+    <McText prefix={'&'}>
+      {'&4This is red and this is &ksecret&r and &lbold. Note that &9color codes reset format codes, as you &ocan see.'}
     </McText>
   ))
