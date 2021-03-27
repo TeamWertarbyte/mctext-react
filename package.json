@@ -2,7 +2,7 @@
   "name": "mctext-react",
   "version": "1.1.0",
   "description": "A React component to display Minecraft-formatted text.",
-  "main": "lib/McText",
+  "main": "lib/McText.js",
   "typings": "./mctext-react",
   "scripts": {
     "test": "standard && jest",
